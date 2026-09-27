@@ -1,0 +1,33 @@
+{
+  "total_routes_tested": 70,
+  "by_period": {
+    "day": {
+      "avg_safety_gain": 1.47,
+      "avg_time_cost": 0.36,
+      "avg_safe_score": 59.84,
+      "avg_fast_score": 58.37,
+      "pct_worth_it": 100.0
+    },
+    "evening": {
+      "avg_safety_gain": 1.62,
+      "avg_time_cost": 0.49,
+      "avg_safe_score": 55.69,
+      "avg_fast_score": 54.06,
+      "pct_worth_it": 100.0
+    },
+    "night": {
+      "avg_safety_gain": 3.37,
+      "avg_time_cost": 0.86,
+      "avg_safe_score": 47.47,
+      "avg_fast_score": 44.1,
+      "pct_worth_it": 100.0
+    },
+    "late_night": {
+      "avg_safety_gain": 4.55,
+      "avg_time_cost": 1.54,
+      "avg_safe_score": 36.04,
+      "avg_fast_score": 31.49,
+      "pct_worth_it": 100.0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mae": 0.2763,
+  "rmse": 0.3887,
+  "r2": 0.9993,
+  "mae_train": 0.229,
+  "r2_train": 0.9995,
+  "n_train": 66697,
+  "n_test": 16675,
+  "best_iteration": 799,
+  "n_features": 32
+}

@@ -1,0 +1,74 @@
+# Python build output and caches
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local configuration (keep the template)
+.env
+.env.*
+!.env.example
+
+# Large data - shared separately through Google Drive. The stored demo routes
+# (python -m routing.demo_cache) are small and are committed.
+data/*
+!data/demo_cache/
+data.zip
+cache/
+ingestion/cache/
+
+# Model artifacts: keep metrics, feature lists and plots, not the binaries
+ai/ml/artifacts/*.pkl
+ai/ml/artifacts/*.bin
+ai/ml/cache/
+!ai/ml/artifacts/*.json
+!ai/ml/artifacts/*.csv
+!ai/ml/artifacts/*.png
+
+# Cached LLM answers
+ai/llm/cache/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+frontend/.env.local
+frontend/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Evaluation output (the committed summary is kept)
+evaluation/results/*.csv
+evaluation/results/*.png
+evaluation/results/*.json
+!evaluation/results/benchmark_summary.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+*.pid
+*.bak
+*.tmp
+
+report/

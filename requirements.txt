@@ -1,0 +1,31 @@
+# API
+fastapi==0.135.3
+uvicorn==0.42.0
+pydantic==2.12.5
+httpx==0.28.1
+python-dotenv==1.2.2
+requests==2.33.1
+
+# Geospatial and graphs
+osmnx==2.0.7; python_version < "3.11"
+osmnx==2.1.0; python_version >= "3.11"
+networkx==3.4.2
+geopandas==1.1.3
+shapely==2.1.2
+scipy==1.14.1
+
+# Data and machine learning
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+xgboost==2.1.4
+shap==0.48.0
+joblib==1.5.3
+pillow==11.1.0
+
+# Report figures
+matplotlib==3.9.4
+
+# Optional extras (install only if you need them):
+#   groq                       plain-language explanations in ai/llm/explainer.py
+#   torch + openai CLIP        image encoder in ingestion/fetch_all_features.py
